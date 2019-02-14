@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+     绑定您的手机号
+  </view>
+ 
+</view>

@@ -1,9 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs",
     "pages/mine/mine",
-    "pages/train/train"
+    "pages/train/train",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -21,7 +21,7 @@
         "selectedIconPath": "icons/shopping-select.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/train/train",
         "text": "报销中",
         "iconPath": "icons/bags.png",
         "selectedIconPath": "icons/bags-select.png"
