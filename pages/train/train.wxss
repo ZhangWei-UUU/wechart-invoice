@@ -1,0 +1,21 @@
+.ticket-header {
+  background-color: rgb(32, 116, 212);
+  width: 100%;
+  height: 50px;
+  color:#fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.ticket-header p {
+  font-size: 0.8rem
+}
+
+.ticket-header .col-class {
+  text-align: center;
+}
+
+.form-btn {
+  width: 70%;
+  margin:10px auto;
+}

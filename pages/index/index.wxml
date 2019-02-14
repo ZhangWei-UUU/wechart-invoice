@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+ 
+ <view class="card-index"  animation="{{animationTest}}">
+ <navigator url="/pages/train/train" hover-class="none" > 
+   <image src="../../images/train.jpg"/>
+   <view class="card-text">
+    <i-row>
+    <i-col span="12" i-class="col-class">
+      <h3>火车票报销</h3>
+    </i-col>
+    <i-col span="6" offset="6" i-class="col-class">
+    
+    </i-col>
+    </i-row>
+    </view>
+      </navigator>
+ </view>
+
+  <view class="card-index"  animation="{{animationTest}}">
+    <image src="../../images/hotal.jpg"/>
+    <view class="card-text">
+      <i-row>
+        <i-col span="12" i-class="col-class">
+          <h3>酒店报销</h3>
+        </i-col>
+      <i-col span="6" offset="6" i-class="col-class">
+      
+      </i-col>
+      </i-row>
+    </view>
+  </view>
+  <view class="card-index"  animation="{{animationTest}}">
+    <image src="../../images/taxi.jpg"/>
+    <view class="card-text">
+      <i-row>
+        <i-col span="12" i-class="col-class">
+          <h3>出租车报销</h3>
+        </i-col>
+      <i-col span="6" offset="6" i-class="col-class">
+      
+      </i-col>
+      </i-row>
+    </view>
+  </view>
+</view>

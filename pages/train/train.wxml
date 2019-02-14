@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='ticket-header'>
+    火车票报销系统
+  </view>
+  <view class='ticket-header'>
+    <i-row>
+      <i-col span="8" i-class="col-class">
+      <p>出发站</p>
+      <div><h2>{{start}}</h2></div>
+      </i-col>
+      <i-col span="8" i-class="col-class">
+         <i-icon type="return" /> <i-icon type="enter" />
+      </i-col>
+      <i-col span="8" i-class="col-class">
+      <p>终点站</p>
+       <div><h2>{{terminal}}</h2></div>
+      </i-col>
+    </i-row>
+  </view>
+  <i-panel title="金额" style="width:100%">
+    <view style="padding: 16px">
+      <i-input-number value="{{ cost }}" min="10" max="2000" bindchange="handleChange1" />
+    </view>
+  </i-panel>
+  <i-message id="message" />
+  <i-button bind:click="submit" type="primary" long="true" class="form-btn">提交</i-button>
+</view>
