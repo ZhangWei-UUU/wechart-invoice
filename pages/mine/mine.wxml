@@ -4,10 +4,8 @@
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
       <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}微信公众号</text>
+      <text class="userinfo-nickname">{{userInfo.nickName}}，点击绑定手机</text>
     </block>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}测试成功</text>
-  </view>
+ 
 </view>
